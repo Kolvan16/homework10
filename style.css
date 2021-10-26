@@ -1,0 +1,63 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    box-sizing: border-box;
+}
+header {
+    background-color: crimson
+}
+.navigation {
+    max-width: 600px;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    width: 125px;
+}
+.catalog-item {
+    position: absolute;
+    display: none;
+    margin: 5px;
+}
+.link {
+    text-decoration: none;
+    color: rgb(43, 36, 36);
+    padding: 10px 10px 10px 10px;
+}
+.link:hover {
+    color: cornsilk;
+    font-weight: bold;
+    background-color: rgb(148, 104, 113);
+}
+.item-link-catalog {
+    text-decoration: none;
+    color: rgb(43, 36, 36);
+    margin: 5px;
+    background-color: crimson;
+    padding: 5px;
+    display: block;
+}
+.choice:hover .catalog-item {
+    display: block;
+}
+.choice:hover .link {
+    color: cornsilk;
+    font-weight: bold;
+    background-color: rgb(148, 104, 113);
+}
+.item-link {
+    vertical-align: top;
+    width: 100px;
+}
+.item-link-catalog:hover {
+    color: cornsilk;
+    background-color: rgb(148, 104, 113);
+    margin: 10px;
+}
